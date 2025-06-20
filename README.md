@@ -28,19 +28,24 @@ This project implements a **Convolutional Neural Network (CNN)** to recognize ha
 * Google Colab
 
  📁 File Structure
+Project: mnist-digit-recognition-cnn
+
+Folders:
+- model/ :
+    - mnist_cnn_model.h5              : Trained CNN model (HDF5 format)
+    - mnist_cnn_model.keras (optional): Same model in Keras format
+
+- notebooks/ :
+    - cnn_model_training.ipynb        : Jupyter Notebook for training CNN on MNIST
+    - digit_recognition_app.ipynb     : Notebook with upload, webcam, and canvas input features
+
+Files:
+- README.md             : Project overview and documentation
+- requirements.txt      : Python dependencies
+- .gitignore            : Files/folders to ignore in Git
+- LICENSE (optional)    : Recommended: MIT License
 
 
-digit-recognition-cnn/
-├── 📂 model/
-│   └── mnist_cnn_model.h5            # Trained model (HDF5 format)
-│
-├── 📂 notebooks/
-│   ├── cnn_model_training.ipynb      # Notebook for training the CNN
-│   └── digit_recognition_interface.ipynb  # Final notebook with UI (upload/draw/camera)
-│
-├── 📄 README.md                      # Project documentation
-├── 📄 requirements.txt               # Python libraries used
-├── 📄 .gitignore                     # Ignore unnecessary files
 
 
  🧠 CNN Architecture Summary
